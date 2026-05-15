@@ -145,6 +145,26 @@ class _LoginViewState extends State<LoginView> {
                             : const Text('Login', style: TextStyle(fontSize: 16)),
                       ),
                     ),
+                       const SizedBox(height: 16),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              const Text("Don't have an account? "),
+                              GestureDetector(
+                                onTap: () => Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (_) => const RegisterView()),
+                                ),
+                                child: const Text(
+                                  'Register',
+                                  style: TextStyle(
+                                    color: Colors.indigo,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                            ],
+                        ),
                   ],
                 ),
               ),
