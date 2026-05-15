@@ -4,6 +4,7 @@ import '../../viewmodels/login_viewmodel.dart';
 import '../../viewmodels/home_viewmodel.dart';
 import '../student/home_view.dart';
 import '../admin/admin_dashboard_view.dart';
+import 'register_view.dart';
 
 class LoginView extends StatefulWidget {
   const LoginView({super.key});
