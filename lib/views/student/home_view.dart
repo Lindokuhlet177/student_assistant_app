@@ -1,4 +1,8 @@
-import 'package:flutter/material.dart';
+/**
+ * Student Numbers : 224108179, 222016851, 221030087, 220019475, 223025046, 221008989
+ * Student Names: JL Davids, VM Malejane, KP Tshabalala, LJ Thabethe, TG Mofokeng, LM Twala
+ */
+import 'package:flutter/material.dart';//222016851 malejane vinolia
 import 'package:provider/provider.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import '../../viewmodels/home_viewmodel.dart';
