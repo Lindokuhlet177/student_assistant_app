@@ -1,4 +1,10 @@
 import 'package:flutter/material.dart';
+
+/**
+*Student Numbers:224108179, 222016851, 221030087, 220019475, 223025046, 221008989
+*Student Names: JL Davids, VM Malejane, KP Tshabalala, LJ Thabethe, TG Mofokeng, LM Twala
+*/
+
                                   // Action buttons
                                   Row(
                                     children: [
